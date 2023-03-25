@@ -59,33 +59,15 @@ namespace ders08classlar // Note: actual namespace depends on the project name.
         }
     }
 }
-{
 class kullanici
- }
-
-internal string KullaniciAdi;
-internal int Id;
-internal string sifre;
-internal string Soyadi;
-internal string Adi;
-internal string Email;
-
-
-Araba araba = new()
 {
-    Id:""
-Marka: ""
-    Model: ""
-    Renk: ""
-};
-{
-    class Araba
+    internal string KullaniciAdi;
+    internal int Id;
+    internal string sifre;
+    internal string Soyadi;
+    internal string Adi;
+    internal string Email;
 }
-internal string Marka;
-internal int Id;
-internal string Model;
-internal string Renk;
 
-{
 
-}
+
