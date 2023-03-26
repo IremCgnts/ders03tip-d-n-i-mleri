@@ -1,6 +1,6 @@
-﻿namespace adonett
+﻿namespace WindowsFormsFDBFirst
 {
-    partial class KategoriYönetimi
+    partial class Kategori_Yönetimi
     {
         /// <summary>
         /// Required designer variable.
@@ -41,14 +41,12 @@
             // 
             // dgvKategoriler
             // 
-            this.dgvKategoriler.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvKategoriler.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvKategoriler.Location = new System.Drawing.Point(12, 41);
+            this.dgvKategoriler.Location = new System.Drawing.Point(12, 12);
             this.dgvKategoriler.Name = "dgvKategoriler";
-            this.dgvKategoriler.Size = new System.Drawing.Size(348, 377);
+            this.dgvKategoriler.Size = new System.Drawing.Size(405, 426);
             this.dgvKategoriler.TabIndex = 0;
             this.dgvKategoriler.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKategoriler_CellClick);
-            
             // 
             // groupBox1
             // 
@@ -57,10 +55,10 @@
             this.groupBox1.Controls.Add(this.btnEkle);
             this.groupBox1.Controls.Add(this.txtKategoriAdi);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(392, 41);
+            this.groupBox1.Location = new System.Drawing.Point(440, 53);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(341, 220);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.Size = new System.Drawing.Size(324, 220);
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kategori Bilgisi";
             // 
@@ -112,16 +110,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Kategori Adı";
             // 
-            // KategoriYönetimi
+            // Kategori_Yönetimi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvKategoriler);
-            this.Name = "KategoriYönetimi";
-            this.Text = "KategoriYönetimi";
-            this.Load += new System.EventHandler(this.KategoriYönetimi_Load);
+            this.Name = "Kategori_Yönetimi";
+            this.Text = "Kategori_Yönetimi";
+            this.Load += new System.EventHandler(this.Kategori_Yönetimi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKategoriler)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

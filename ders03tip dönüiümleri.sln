@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ders08classlar", "ders08cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adonett", "adonett\adonett.csproj", "{2AC066B3-EA45-4191-9DA1-3C73C36E0790}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsEFDBFirst", "WindowsFormsFDBFirst\WindowsFormsEFDBFirst.csproj", "{87BEB69D-243E-43EA-B49D-0C7DF116F2D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2AC066B3-EA45-4191-9DA1-3C73C36E0790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AC066B3-EA45-4191-9DA1-3C73C36E0790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AC066B3-EA45-4191-9DA1-3C73C36E0790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BEB69D-243E-43EA-B49D-0C7DF116F2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BEB69D-243E-43EA-B49D-0C7DF116F2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BEB69D-243E-43EA-B49D-0C7DF116F2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BEB69D-243E-43EA-B49D-0C7DF116F2D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿namespace adonett
+﻿namespace WindowsFormsFDBFirst
 {
     partial class Form1
     {
@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.dgvUrunler = new System.Windows.Forms.DataGridView();
+            this.btnAra = new System.Windows.Forms.Button();
+            this.txtAra = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnsil = new System.Windows.Forms.Button();
             this.btnGuncelle = new System.Windows.Forms.Button();
@@ -38,13 +42,45 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.dgvUrunler = new System.Windows.Forms.DataGridView();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtAra = new System.Windows.Forms.TextBox();
-            this.btnAra = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUrunler)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // dgvUrunler
+            // 
+            this.dgvUrunler.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvUrunler.Location = new System.Drawing.Point(12, 67);
+            this.dgvUrunler.Name = "dgvUrunler";
+            this.dgvUrunler.Size = new System.Drawing.Size(362, 339);
+            this.dgvUrunler.TabIndex = 2;
+            this.dgvUrunler.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUrunler_CellClick);
+            // 
+            // btnAra
+            // 
+            this.btnAra.Location = new System.Drawing.Point(201, 21);
+            this.btnAra.Name = "btnAra";
+            this.btnAra.Size = new System.Drawing.Size(75, 23);
+            this.btnAra.TabIndex = 7;
+            this.btnAra.Text = "Ara";
+            this.btnAra.UseVisualStyleBackColor = true;
+            this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
+            // 
+            // txtAra
+            // 
+            this.txtAra.Location = new System.Drawing.Point(83, 23);
+            this.txtAra.Name = "txtAra";
+            this.txtAra.Size = new System.Drawing.Size(100, 20);
+            this.txtAra.TabIndex = 6;
+            this.txtAra.TextChanged += new System.EventHandler(this.txtAra_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(16, 26);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(49, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Ürün Ara";
             // 
             // groupBox1
             // 
@@ -57,10 +93,10 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(451, 39);
+            this.groupBox1.Location = new System.Drawing.Point(411, 67);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(292, 239);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ürün Bilgileri";
             // 
@@ -143,58 +179,22 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "ürün miktarı";
             // 
-            // dgvUrunler
-            // 
-            this.dgvUrunler.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUrunler.Location = new System.Drawing.Point(31, 54);
-            this.dgvUrunler.Name = "dgvUrunler";
-            this.dgvUrunler.Size = new System.Drawing.Size(362, 339);
-            this.dgvUrunler.TabIndex = 1;
-            this.dgvUrunler.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUrunler_CellClick);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Ürün Ara";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // txtAra
-            // 
-            this.txtAra.Location = new System.Drawing.Point(95, 17);
-            this.txtAra.Name = "txtAra";
-            this.txtAra.Size = new System.Drawing.Size(100, 20);
-            this.txtAra.TabIndex = 3;
-            // 
-            // btnAra
-            // 
-            this.btnAra.Location = new System.Drawing.Point(213, 15);
-            this.btnAra.Name = "btnAra";
-            this.btnAra.Size = new System.Drawing.Size(75, 23);
-            this.btnAra.TabIndex = 4;
-            this.btnAra.Text = "Ara";
-            this.btnAra.UseVisualStyleBackColor = true;
-            this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnAra);
             this.Controls.Add(this.txtAra);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dgvUrunler);
-            this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Ado.Net ile Ürün Yönetimi";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUrunler)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvUrunler)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,7 +202,13 @@
 
         #endregion
 
+        private System.Windows.Forms.DataGridView dgvUrunler;
+        private System.Windows.Forms.Button btnAra;
+        private System.Windows.Forms.TextBox txtAra;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnsil;
+        private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.Button btnekle;
         private System.Windows.Forms.TextBox txtStokMiktari;
         private System.Windows.Forms.TextBox txtUrunFiyati;
@@ -210,12 +216,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView dgvUrunler;
-        private System.Windows.Forms.Button btnGuncelle;
-        private System.Windows.Forms.Button btnsil;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtAra;
-        private System.Windows.Forms.Button btnAra;
     }
 }
-
