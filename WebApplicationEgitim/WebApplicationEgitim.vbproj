@@ -94,8 +94,10 @@
   <ItemGroup>
     <Content Include="anasayfa.html" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Pictures\Desktop image.png" />
     <Content Include="Index.html" />
     <Content Include="Web.config" />
+    <Content Include="WebFormElementleri.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.vb">
@@ -120,6 +122,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="WebFormElementleri.aspx.designer.vb">
+      <DependentUpon>WebFormElementleri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormElementleri.aspx.vb">
+      <DependentUpon>WebFormElementleri.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -130,6 +139,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Pictures\desktop.ini" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
