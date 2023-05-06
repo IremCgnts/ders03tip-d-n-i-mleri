@@ -70,6 +70,14 @@
     <Content Include="BootsTrapEgitimi\Ders01Giris.html" />
     <Content Include="BootsTrapEgitimi\Ders02SatirveSütunKullanimi.html" />
     <Content Include="BootsTrapEgitimi\ders03Hizalama.html" />
+    <Content Include="BootsTrapEgitimi\ders04Sıralama İttirme.html" />
+    <Content Include="BootsTrapEgitimi\Ders05Margin-Padding.html" />
+    <Content Include="BootsTrapEgitimi\Ders06TableClasslari.html" />
+    <Content Include="BootsTrapEgitimi\Ders07FormElementleri.html" />
+    <Content Include="BootsTrapEgitimi\Ders08Alerts.html" />
+    <Content Include="BootsTrapEgitimi\Ders09RenkClassları.html" />
+    <Content Include="BootsTrapEgitimi\Ders10Listeler.html" />
+    <Content Include="BootsTrapEgitimi\Ders11komponentler.html" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
