@@ -102,6 +102,15 @@
     <Content Include="Image\googhlee.png" />
     <Content Include="Image\saved_resource.html" />
     <Content Include="Index.html" />
+    <Content Include="JavascriptEgitimi\Konu01JavascriptGiris.html" />
+    <Content Include="JavascriptEgitimi\Konu02Operatorler.html" />
+    <Content Include="JavascriptEgitimi\Konu03KararYapıları.html" />
+    <Content Include="JavascriptEgitimi\Konu04Donguler.html" />
+    <Content Include="JavascriptEgitimi\Konu05Fonksiyonlar.html" />
+    <Content Include="JavascriptEgitimi\Konu06StringMetodları.html" />
+    <Content Include="JavascriptEgitimi\Konu07Olaylar.html" />
+    <Content Include="JavascriptEgitimi\Konu08Diziler.html" />
+    <Content Include="JavascriptEgitimi\Konu09Seçiciler.html" />
     <Content Include="MiniSite\Index.html" />
     <Content Include="MiniSite\Stil.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -110,6 +119,7 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\ÖzelJavascriptDosyası.js" />
     <Content Include="Stil.css" />
     <Content Include="Web.config" />
     <Content Include="webFormElementleri.aspx" />
